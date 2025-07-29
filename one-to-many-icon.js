@@ -1,4 +1,4 @@
-<script>
+
 // Inject Flaticon CSS
 const flaticonCSS = document.createElement('link');
 flaticonCSS.rel = 'stylesheet';
@@ -186,4 +186,4 @@ function resetIcons() {
 button.addEventListener("click", () => {
   isOpen ? resetIcons() : spreadIcons();
 });
-</script>
+
